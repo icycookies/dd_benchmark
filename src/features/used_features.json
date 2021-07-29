@@ -1,0 +1,39 @@
+{
+    "user": {
+        "gender": 1,
+        "name_length": 1,
+        "all_microblogs_count": 1,
+        "original_microblogs_ratio": 1,
+        "microblog_with_image_ratio" : 1,
+        "tweet_time_count": 24,
+        "late_post_ratio": 1,
+        "post_frequency": 1,
+        "time_deviation": 1,
+        "followers": 3,
+        "avatar_features": {
+            "saturation": 2,
+            "brightness": 2,
+            "warm_color": 1,
+            "clean_color": 1,
+            "five_color_theme": 15
+        },
+        "textual_features": {
+            "emotional_words_count": 2,
+            "emoticon_count": 3,
+            "pronoun_count": 3,
+            "punctuation_count": 3,
+            "topic_related_words_count": 10
+        }
+    },
+
+    "microblog": {
+        "text_length": 1,
+        "image_features": {
+            "saturation": 2,
+            "brightness": 2,
+            "warm_color": 1,
+            "clean_color": 1,
+            "five_color_theme": 15
+        }
+    }
+}

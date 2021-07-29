@@ -1,0 +1,8 @@
+{
+    "model": "UserText2Labels",
+    "emb_layer": "XLNet",
+    "proc_layer": "BiGRU",
+    "num_layers": 2,
+    "attention": true,
+    "hidden_size": 384
+}

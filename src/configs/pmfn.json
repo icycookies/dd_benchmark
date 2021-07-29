@@ -1,0 +1,11 @@
+{
+    "model": "PMFN",
+    "text_emb_layer": "XLNet",
+    "visual_emb_layer": "ResNet18",
+    "w1": 0.02,
+    "w2": 1.0,
+    "num_aggr_layers": 2,
+    "hidden_size": 512,
+    "hidden_size_recon_mlp": [768, 512],
+    "classifier_mlp": [768]
+}

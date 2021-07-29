@@ -1,0 +1,12 @@
+python3 train.py \
+    --config-file fusion_net_wudao_gru_att.json \
+    --num-epochs 20 \
+    --dropout 0 \
+    --lr 0.001 \
+    --num-features 77 \
+    --batch-size 16 \
+    --max-microblogs 32 \
+    --device 0 \
+    --eval-steps 50 \
+    --eval-metric f1 precision recall accuracy \
+    --save

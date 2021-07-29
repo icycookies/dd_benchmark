@@ -1,0 +1,10 @@
+{
+    "model": "MicroblogText2Labels",
+    "hidden_size": 512,
+    "hidden_size_classifier": 384,
+    "hidden_size_squeezed": 128,
+    "emb_layer": "XLNet",
+    "proc_layer": "BiGRU",
+    "num_emb_layers": 2,
+    "num_aggr_layers": 2
+}

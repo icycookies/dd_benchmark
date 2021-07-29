@@ -1,0 +1,18 @@
+python3 train.py \
+    --config-file pmfn.json \
+    --num-epochs 10 \
+    --dropout 0 \
+    --lr 0.0001 \
+    --num-features 77 \
+    --batch-size 4 \
+    --max-seq-len 32 \
+    --max-microblogs 64 \
+    --gradient-accumulation-steps 16 \
+    --device 7 \
+    --pretrain-epochs 2 \
+    --pretrain-batch-size 4 \
+    --pretrain-gradient-accumulation-steps 16 \
+    --logging-steps 40 \
+    --eval-steps 400 \
+    --eval-metric f1 precision recall accuracy \
+    --save

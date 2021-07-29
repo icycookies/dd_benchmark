@@ -1,0 +1,11 @@
+{
+    "model": "FusionNet",
+    "emb_layer": "XLNet",
+    "mid_layer": "CNN1D",
+    "attention": false,
+    "w1": 0.2,
+    "w2": 1.0,
+    "hidden_size": 128,
+    "hidden_size_task1": 128,
+    "hidden_size_task2": [512, 256, 128]
+}
